@@ -3,24 +3,17 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --light-gray: #E0E0E0;
+  --accent: #7BDFD0;
+  --off-white: #F5F0E8;
+  --dark-blue: #00008B;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer components {
+  .main-title {
+    color: var(--dark-blue);
   }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  .text-accent {
+    color: var(--accent);
+  }
 }
