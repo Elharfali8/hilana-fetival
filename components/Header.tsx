@@ -12,7 +12,7 @@ const Header = () => {
     }
 
   return (
-      <header className='w-full py-4 fixed top-0 left-0 right-0 shadow' >
+      <header className='w-full py-4 fixed top-0 left-0 right-0 shadow z-99' >
           <Navbar navIsOpen={navIsOpen} handleNavToggle={handleNavToggle} />
           <Sidebar navIsOpen={navIsOpen} />
     </header>

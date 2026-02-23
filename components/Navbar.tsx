@@ -9,7 +9,7 @@ type NavbarProps = {
 
 const Navbar = ({ navIsOpen, handleNavToggle }: NavbarProps) => {
   return (
-      <nav className='container mx-auto px-4 lg:py-2 '>
+      <nav className='container mx-auto px-4 lg:py-2 z-99'>
           <div className='flex items-center justify-between'>
               <Link href='/' className='text-2xl font-bold main-title'>
                 Hilana Festival
