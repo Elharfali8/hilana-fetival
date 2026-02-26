@@ -1,6 +1,7 @@
 import About from '@/components/About'
 import Header from '@/components/Header'
 import Hero from '@/components/Hero'
+import Programme from '@/components/Programme'
 import React from 'react'
 
 function HomePage() {
@@ -9,6 +10,7 @@ function HomePage() {
       <Header />
       <Hero />
       <About />
+      <Programme />
     </main>
   )
 }
